@@ -23,3 +23,8 @@ git branch -M main
 git remote add origin https://github.com/yuyuane/2026_data_project.git
 git push -u origin main
 -u（--set-upstream）：建立本地分支与远程分支的跟踪关系，之后可以直接用 git push/git pull
+
+#后续修改数据后命令为
+git add . # 将修改的数据添加到暂存区
+git commit -m "备注" # 提交到本地仓库
+git push # 推送所有更改的数据
