@@ -1,0 +1,34 @@
+多源招聘数据抓取
+百万级数据存储
+ETL清洗
+技能分析
+薪资分析
+可视化展示
+
+具体需求：
+1. 主要抓取几个岗位的数据，包含Data Engineer、Data Analyst、AI Engineer、Python Developer
+2. 主要数据来源：Adzuna API、RemoteOK API、Reed API、IrishJobs、Indeed（后期）
+3. 数据输出格式：JSON
+4. 需进行数据清洗
+5. 数据统计：岗位各区域出现次数、各岗位各区域平均薪资
+
+jobTable
+LinkedIn 获取数据源
+唯一ID：id
+岗位名：name
+岗位发布时间：publish_time
+公司名：company
+公司介绍: company_detail
+公司关注人数：followers
+申请方式：apply_type, 1 Easy apply, 2 External Apply, 3 Company Website
+雇佣类型：employment_type, 1 Full_time, 2 Part_time, 3 Contract, 4 Internship
+工作模式：work_mode，1 On-site，2 Hybrid，3 Remote
+工作地点：work_place
+申请人数：applicants
+工作描述：detail
+工作信息来源类型：source，1 LinkedIn, 2 adzuna, 3 indeed, 4 IrishJobs, 
+工作信息来源URL：source_url
+创建时间：created_at
+修改时间：updated_at
+
+Stack Builder未安装，后续再了解看看是否有需求
